@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AWM – All Wear Mode | Men & Women Fashion Online</title>
+<meta name="description" content="Shop T-shirts, shirts, trousers, casual and streetwear for men and women at AWM – All Wear Mode. Cash on Delivery available.">
+<meta property="og:title" content="AWM – All Wear Mode"><meta property="og:type" content="website">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="topbar text-center">Free delivery over Rs. 4,000 &nbsp;|&nbsp; Cash on Delivery available nationwide</div>
+
+<nav class="navbar navbar-expand-xl sticky-top awm-nav">
+  <div class="container">
+    <a class="navbar-brand awm-logo" href="#top"><span>AWM</span><small>All Wear Mode</small></a>
+    <button class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Menu"><i class="bi bi-list fs-2"></i></button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav mx-lg-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#shop" data-gender="Men">Men</a></li>
+        <li class="nav-item"><a class="nav-link" href="#shop" data-gender="Women">Women</a></li>
+        <li class="nav-item"><a class="nav-link" href="#shop" data-tag="New">New Arrivals</a></li>
+        <li class="nav-item"><a class="nav-link" href="#shop" data-tag="Trending">Trending</a></li>
+        <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+        <li class="nav-item"><a class="nav-link" href="#track" data-bs-toggle="modal" data-bs-target="#trackModal">Track Order</a></li>
+      </ul>
+      <div class="d-flex align-items-center gap-3 nav-icons">
+        <form class="search-box" id="searchForm" role="search"><i class="bi bi-search"></i><input id="searchInput" type="search" placeholder="Search products" aria-label="Search"></form>
+        <button class="icon-btn" data-bs-toggle="modal" data-bs-target="#accountModal" aria-label="Account"><i class="bi bi-person"></i></button>
+        <button class="icon-btn" id="wishBtn" aria-label="Wishlist"><i class="bi bi-heart"></i><b id="wishCount">0</b></button>
+        <button class="icon-btn" data-bs-toggle="offcanvas" data-bs-target="#cartCanvas" aria-label="Cart"><i class="bi bi-bag"></i><b id="cartCount">0</b></button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-6">
+        <p class="hero-kicker">Autumn / Winter 2026</p>
+        <h1>Wear it your way, every day.</h1>
+        <p class="lead">Tees, shirts, trousers and streetwear for men and women. New drops every week.</p>
+        <div class="d-flex flex-wrap gap-2">
+          <a href="#shop" class="btn btn-awm" data-gender="Men">Shop Men</a>
+          <a href="#shop" class="btn btn-outline-awm" data-gender="Women">Shop Women</a>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="row g-3 hero-imgs">
+          <div class="col-6"><img src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?auto=format&fit=crop&w=600&q=80" alt="Streetwear hoodie" class="tall"></div>
+          <div class="col-6 pt-4"><img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=600&q=80" alt="Women's fashion" class="tall"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="container perks">
+  <div class="row g-3 text-center">
+    <div class="col-6 col-md-3"><i class="bi bi-truck"></i><span>Fast Delivery</span></div>
+    <div class="col-6 col-md-3"><i class="bi bi-cash-coin"></i><span>Cash on Delivery</span></div>
+    <div class="col-6 col-md-3"><i class="bi bi-arrow-repeat"></i><span>7-Day Exchange</span></div>
+    <div class="col-6 col-md-3"><i class="bi bi-shield-lock"></i><span>Secure Payments</span></div>
+  </div>
+</section>
+
+<section class="container py-5" id="about">
+  <div class="row align-items-center g-5">
+    <div class="col-lg-6"><div class="about-imgs"><img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=700&q=80" alt="AWM store" class="a1" onerror="this.src='https://placehold.co/700x500/eef1f8/1a2347?text=AWM'"><img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=500&q=80" alt="Clothing rack" class="a2" onerror="this.src='https://placehold.co/500x400/ffe9e3/1a2347?text=AWM'"></div></div>
+    <div class="col-lg-6">
+      <h2 class="sec-title">About AWM – All Wear Mode</h2>
+      <p class="text-muted">AWM started with a simple idea: good clothes should fit your life, not the other way around. We design everyday pieces for men and women, from clean basics to bold streetwear, at prices that make sense.</p>
+      <p class="text-muted">Every drop is made with quality fabrics, tested for fit and washed before it ships. We keep our collections small and fresh, so you always find something new.</p>
+      <div class="row g-3 stats text-center">
+        <div class="col-4"><b>50K+</b><span>Happy customers</span></div>
+        <div class="col-4"><b>500+</b><span>Styles</span></div>
+        <div class="col-4"><b>100+</b><span>Cities served</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container py-5" id="shop">
+  <div class="d-flex flex-wrap justify-content-between align-items-end gap-3 mb-4">
+    <div><h2 class="sec-title mb-1" id="shopTitle">All Products</h2><p class="text-muted mb-0"><span id="resultCount">0</span> items</p></div>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-awm d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#filterCanvas"><i class="bi bi-sliders"></i> Filters</button>
+      <select id="sortSelect" class="form-select" aria-label="Sort">
+        <option value="default">Sort: Featured</option>
+        <option value="low">Price: Low to High</option>
+        <option value="high">Price: High to Low</option>
+        <option value="new">Newest</option>
+      </select>
+    </div>
+  </div>
+  <div class="row g-4">
+    <aside class="col-lg-3 d-none d-lg-block"><div class="filters" id="filtersDesktop"></div></aside>
+    <div class="col-lg-9">
+      <div class="rslider" id="prodSlider">
+        <div class="rtrack" id="productGrid" tabindex="0" aria-label="Products"></div>
+        <div class="rctrl"><button id="prodPrev" aria-label="Previous products"><i class="bi bi-chevron-left"></i></button><div class="rdots" id="prodDots"></div><button id="prodNext" aria-label="Next products"><i class="bi bi-chevron-right"></i></button></div>
+      </div>
+      <div id="emptyMsg" class="text-center py-5 d-none"><i class="bi bi-search fs-1"></i><p class="mt-2">No products match. Try clearing your filters.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="why" id="why">
+  <div class="container">
+    <h2 class="sec-title text-center mb-1">Why choose AWM</h2>
+    <p class="text-center text-muted mb-4">Shopping should be easy. Here is what you can count on.</p>
+    <div class="row g-4">
+      <div class="col-6 col-lg-3"><div class="why-card"><i class="bi bi-gem"></i><h5>Premium fabrics</h5><p>Soft, durable cotton, denim and linen blends that last wash after wash.</p></div></div>
+      <div class="col-6 col-lg-3"><div class="why-card"><i class="bi bi-tags"></i><h5>Fair prices</h5><p>Direct-to-you pricing with regular sales and no hidden charges.</p></div></div>
+      <div class="col-6 col-lg-3"><div class="why-card"><i class="bi bi-box-seam"></i><h5>Cash on Delivery</h5><p>Check your order at your door and pay when it arrives.</p></div></div>
+      <div class="col-6 col-lg-3"><div class="why-card"><i class="bi bi-arrow-repeat"></i><h5>Easy exchange</h5><p>Wrong size? Exchange it within 7 days, no questions asked.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="container py-5" id="upcoming">
+  <div class="d-flex flex-wrap justify-content-between align-items-end gap-3 mb-4">
+    <div><h2 class="sec-title mb-1">Upcoming drops</h2><p class="text-muted mb-0">Be first in line. Tap Notify me and we will message you at launch.</p></div>
+    <div class="countdown" id="countdown" aria-live="off"></div>
+  </div>
+  <div class="row g-3">
+    <div class="col-6 col-md-3"><div class="up-card"><img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=500&q=80" alt="Smart casual blazer" onerror="this.src='https://placehold.co/500x650/eef1f8/1a2347?text=AWM'"><span class="tag">Coming soon</span><h6>Smart Casual Blazer</h6><button class="btn btn-outline-awm btn-sm w-100 notify">Notify me</button></div></div>
+    <div class="col-6 col-md-3"><div class="up-card"><img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=500&q=80" alt="Winter jacket collection" onerror="this.src='https://placehold.co/500x650/eef1f8/1a2347?text=AWM'"><span class="tag">Coming soon</span><h6>Winter Puffer Series</h6><button class="btn btn-outline-awm btn-sm w-100 notify">Notify me</button></div></div>
+    <div class="col-6 col-md-3"><div class="up-card"><img src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=500&q=80" alt="Premium polo" onerror="this.src='https://placehold.co/500x650/eef1f8/1a2347?text=AWM'"><span class="tag">Coming soon</span><h6>Premium Pique Polo</h6><button class="btn btn-outline-awm btn-sm w-100 notify">Notify me</button></div></div>
+    <div class="col-6 col-md-3"><div class="up-card"><img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=500&q=80" alt="Women's festive collection" onerror="this.src='https://placehold.co/500x650/eef1f8/1a2347?text=AWM'"><span class="tag">Coming soon</span><h6>Women's Festive Edit</h6><button class="btn btn-outline-awm btn-sm w-100 notify">Notify me</button></div></div>
+  </div>
+</section>
+
+<section class="reviews" id="reviews">
+  <div class="container">
+    <h2 class="sec-title text-center mb-1">What our customers say</h2>
+    <p class="text-center text-muted mb-4"><span class="stars">★★★★★</span> 4.8 average from 2,300+ reviews</p>
+    <div class="rslider" id="revSlider">
+      <div class="rtrack" id="revTrack" tabindex="0" aria-label="Customer reviews"></div>
+      <div class="rctrl"><button id="revPrev" aria-label="Previous reviews"><i class="bi bi-chevron-left"></i></button><div class="rdots" id="revDots"></div><button id="revNext" aria-label="Next reviews"><i class="bi bi-chevron-right"></i></button></div>
+    </div>
+  </div>
+</section>
+
+<section class="promo" id="newsletter">
+  <div class="container text-center">
+    <h2>Join the AWM list</h2>
+    <p>Get 10% off your first order and early access to drops.</p>
+    <form class="row g-2 justify-content-center" id="newsForm"><div class="col-8 col-md-5"><input type="email" class="form-control" placeholder="Your email" required></div><div class="col-4 col-md-2"><button class="btn btn-awm w-100">Subscribe</button></div></form>
+  </div>
+</section>
+
+<footer class="awm-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4"><div class="awm-logo light"><span>AWM</span><small>All Wear Mode</small></div><p class="mt-3">Modern everyday fashion for men and women.</p>
+        <div class="social"><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a><a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a><a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a><a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a></div></div>
+      <div class="col-6 col-md-2"><h6>Shop</h6><a href="#shop" data-gender="Men">Men</a><a href="#shop" data-gender="Women">Women</a><a href="#shop" data-tag="New">New Arrivals</a></div>
+      <div class="col-6 col-md-3"><h6>Help</h6><a href="#" data-bs-toggle="modal" data-bs-target="#trackModal">Track Order</a><a href="#">Shipping & Returns</a><a href="#">Size Guide</a></div>
+      <div class="col-md-3"><h6>Contact</h6><a href="mailto:support@awm.com">support@awm.com</a><a href="#">WhatsApp: +92 300 0000000</a></div>
+    </div>
+    <p class="copy">© 2026 AWM – All Wear Mode. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Filters (mobile offcanvas) -->
+<div class="offcanvas offcanvas-start" id="filterCanvas"><div class="offcanvas-header"><h5>Filters</h5><button class="btn-close" data-bs-dismiss="offcanvas"></button></div><div class="offcanvas-body filters" id="filtersMobile"></div></div>
+
+<!-- Cart -->
+<div class="offcanvas offcanvas-end" id="cartCanvas">
+  <div class="offcanvas-header"><h5>Your Bag</h5><button class="btn-close" data-bs-dismiss="offcanvas"></button></div>
+  <div class="offcanvas-body d-flex flex-column"><div id="cartItems" class="flex-grow-1"></div>
+    <div class="cart-foot"><div class="d-flex justify-content-between"><span>Subtotal</span><b id="cartSub">Rs. 0</b></div><small class="text-muted">Shipping calculated at checkout</small>
+    <button class="btn btn-awm w-100 mt-2" id="checkoutBtn">Checkout</button></div></div>
+</div>
+
+<!-- Product modal -->
+<div class="modal fade" id="productModal" tabindex="-1"><div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content"><button class="btn-close m-3 position-absolute end-0 top-0 z-3" data-bs-dismiss="modal"></button><div class="modal-body p-0" id="productBody"></div></div></div></div>
+
+<!-- Checkout -->
+<div class="modal fade" id="checkoutModal" tabindex="-1"><div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"><div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title">Checkout</h5><button class="btn-close" data-bs-dismiss="modal"></button></div>
+  <form id="checkoutForm"><div class="modal-body"><div class="row g-3">
+    <div class="col-md-7"><div class="row g-2">
+      <div class="col-12"><input class="form-control" name="name" placeholder="Full name" required></div>
+      <div class="col-md-6"><input class="form-control" name="phone" placeholder="Phone (03xx xxxxxxx)" pattern="[0-9+ -]{10,15}" required></div>
+      <div class="col-md-6"><input class="form-control" type="email" name="email" placeholder="Email" required></div>
+      <div class="col-12"><input class="form-control" name="address" placeholder="Full address" required></div>
+      <div class="col-md-6"><input class="form-control" name="city" placeholder="City" required></div>
+      <div class="col-md-6"><input class="form-control" name="postal" placeholder="Postal code"></div>
+      <div class="col-12 mt-3"><h6>Payment</h6>
+        <label class="pay-opt"><input type="radio" name="pay" value="Cash on Delivery" checked> <i class="bi bi-cash-coin"></i> Cash on Delivery</label>
+        <label class="pay-opt"><input type="radio" name="pay" value="Card"> <i class="bi bi-credit-card"></i> Debit / Credit Card</label>
+        <label class="pay-opt"><input type="radio" name="pay" value="Easypaisa / JazzCash"> <i class="bi bi-phone"></i> Easypaisa / JazzCash</label>
+        <label class="pay-opt"><input type="radio" name="pay" value="Bank Transfer"> <i class="bi bi-bank"></i> Bank Transfer</label></div>
+    </div></div>
+    <div class="col-md-5"><div class="summary" id="orderSummary"></div></div>
+  </div></div>
+  <div class="modal-footer"><button class="btn btn-awm w-100">Place Order</button></div></form>
+</div></div></div>
+
+<!-- Track -->
+<div class="modal fade" id="trackModal" tabindex="-1"><div class="modal-dialog modal-dialog-centered"><div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title">Track your order</h5><button class="btn-close" data-bs-dismiss="modal"></button></div>
+  <div class="modal-body"><form id="trackForm" class="d-flex gap-2"><input id="trackId" class="form-control" placeholder="Order ID e.g. AWM-123456" required><button class="btn btn-awm">Track</button></form><div id="trackResult" class="mt-4"></div></div>
+</div></div></div>
+
+<!-- Account -->
+<div class="modal fade" id="accountModal" tabindex="-1"><div class="modal-dialog modal-dialog-centered"><div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title" id="accTitle">Welcome to AWM</h5><button class="btn-close" data-bs-dismiss="modal"></button></div>
+  <div class="modal-body" id="accBody"></div>
+</div></div></div>
+
+<div class="toast-container position-fixed bottom-0 end-0 p-3"><div id="toast" class="toast awm-toast" role="status"><div class="toast-body" id="toastMsg"></div></div></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
